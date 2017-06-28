@@ -1,0 +1,97 @@
+<!doctype html>
+ <html>
+ 
+ <head> 
+	<meta charset="utf-8"/>
+	<title> Ficha de Inscrição </title>
+	<style type ="text/css">
+	
+	form{ 
+	width:600px; 
+	background-color:gray; 
+	border:8px solid ;
+	border-color:black;
+	padding-bottom:30px;
+	padding-left:10px;
+	margin:0 auto;
+	border-radius:50px;
+	}
+	
+	form input[type=text]{
+	margin-left:10px;
+	border:2px solid;
+	font-family:verdana;
+	}
+	
+	form select[type=text]{
+	margin-left:10px;
+	border:2px solid;
+	font-family:verdana;
+	}
+	
+	#botao{
+	text-align:center;
+	
+}
+	
+	
+		</style>
+ </head>
+
+ 
+ <body>
+ 
+ <form name ="formulario" method="post" action="">
+ 
+ <h1 align="center">
+ <font size="30" face="Agency FB">
+Ficha de inscrição
+</font>
+</h1>
+
+<div id="doctodo">
+<font size="3" face="Arial">
+<b>
+<br/><br/> Endereço de E-mail:<input name="email"  type="text" value=""placeholder="Seu endereço de e-mail" size="40" maxlength="50" ></input><br/><br/>
+  Nome:<input name="nome" type="text" value="" placeholder="Seu nome completo" size="40" maxlength="50" ></input><br/><br/>
+ Sexo:<select name="sexo" type="text">
+			<option value=""></option>
+			<option value="masculino">Masculino</option>
+			<option value="feminino">Feminino</option>
+ </select>
+ <br/><br/>Curso:<select name="curso" type="text" ><br/><br/>
+			<option value="" ></option>
+			<option value="cursoinf">Curso Técnico em Informática</option>
+			<option value="cursoali">Curso Técnico em Alimentos</option>
+			<option value="cursoagr">Curso Técnico em Agropecuária</option>
+			
+ </select>
+ <br/><br/>Endereço para correspondência:<input name="endereço" type="text" value="" size="28"></input><br/><br/>
+ Número:<input name="numero" type="text" maxlength="4" size="5" value=""></input><br/><br/>
+ Complemento do endereço:<input name="comp_end"type="text" placeholder="Ex.:Quadra,apartamento,fundos,etc..." value="" size="34"></input> <br/><br/>
+ CEP:<input name="cep" type="text" value="" size="7" maxlength="8"></input><br/><br/>
+ Município:<input name="municipio" type="text" value=""size="20" maxlength="25"></input>
+ <select name="uf" type="text">
+			<option value="sp">SP</option>
+			<option value="mg">MG</option>
+			<option value="rs">RS</option>
+			<option value="rj">RJ</option>
+			<option value="sc">SC</option>
+			
+
+		
+ </select>
+ <div id="botao">
+ <br/><br/><input  type="submit"  name="salvar" value="Salvar"></input>
+			<input type="reset" name="limpar" value="Limpar"></input>
+			</div>
+</div>
+</b>
+</font>
+ </form>
+
+
+ 
+ </body>
+ 
+ </html>
