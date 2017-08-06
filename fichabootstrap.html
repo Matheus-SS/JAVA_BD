@@ -1,0 +1,141 @@
+<!DOCTYPE-html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<style type="text/css">
+
+
+</style>
+</head>
+
+<body>
+
+<form name="formulario" class="form-horizontal" method="get" action="#">
+	<div class="conteiner">
+        
+		<div class="form-group">
+		   <br><label for="email" class="control-label col-sm-2" >Endereço de email:</label>
+			<div class="col-sm-6">
+				<input type="email" id="email" required class="form-control"/>
+			</div>
+        </div>
+
+        <div class="form-group">
+            <label for="nome" class="control-label col-sm-2">Nome:</label>
+				<div class="col-sm-6">
+			<input type="text" id="nome" required class="form-control" />
+				</div>
+        </div>
+
+        <div class="form-group">
+            <label for="sexo" class="control-label col-sm-2">Sexo:</label>
+            <div class="col-sm-2">
+			<select name="sexo" id="sexo" class="form-control">
+                <option value="" selected></option>
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+            </select>
+        </div>
+		</div>
+
+        <div class="form-group">
+            <label for="curso" class="control-label col-sm-2">Curso:</label>
+            <div class="col-sm-4">
+			<select name="curso" id="curso" class="form-control">
+                <option value="" selected></option>
+                <option value="informatica">Curso Técnico em Informatica</option>
+                <option value="alimentos">Curso Técnico em Alimentos</option>
+                <option value="agropecuaria">Curso Técnico em Agropecuaria</option>
+            </select>
+			</div>
+        </div>
+
+        <div class="form-group">
+            <label for="endereco" class="control-label col-sm-2">Endereço para correspondência:</label>
+            <div class="col-sm-6">
+			<input type="text" id="endereco" required class="form-control"/>
+		
+        </div>
+		</div>
+        <div class="form-group">
+            <label for="complemento" class="control-label col-sm-2">Complemento do endereço</label>
+           <div class="col-sm-4">
+		   <input type="text" id="complemento" required class="form-control" />
+        </div>
+		</div>
+       
+	   <div class="form-group">
+            <label for="cep" class="control-label col-sm-2">CEP</label>
+            <div class="col-sm-4">
+			<input type="text" id="cep" required class="form-control" />
+        </div>
+		</div>
+		
+        <div class="form-group">
+			<label for="municipio" class="control-label col-sm-2">Municipio</label>
+			<div class="col-sm-4">
+		<input type="text" id="municipio" required class="form-control"/>
+		</div>
+		<div class="col-sm-2">
+		 <select name="uf" id="uf" class="form-control">
+                <option value="AC">AC</option>
+                <option value="AL">AL</option>
+                <option value="AP">AP</option>
+                <option value="AM">AM</option>
+                <option value="BA">BA</option>
+                <option value="CE">CE</option>
+                <option value="DF">DF</option>
+                <option value="ES">ES</option>
+                <option value="GO">GO</option>
+                <option value="MA">MA</option>
+                <option value="MS">MS</option>
+                <option value="MT">MT</option>
+                <option value="MG">MG</option>
+                <option value="PA">PA</option>
+                <option value="PB">PB</option>
+                <option value="PR">PR</option>
+                <option value="PE">PE</option>
+                <option value="PI">PI</option>
+                <option value="RJ">RJ</option>
+                <option value="RN">RN</option>
+                <option value="RS" selected>RS</option>
+                <option value="RO">RO</option>
+                <option value="RR">RR</option>
+                <option value="SC">SC</option>
+                <option value="SP">SP</option>
+                <option value="SE">SE</option>
+                <option value="TO">TO</option>
+            </select>
+		
+		
+		
+	
+		</div> <!--FIM DO DIV DO SELECT-->
+			
+			
+        </div> <!--FINAL DO FORMGROUP MUNICIPIO-->
+		
+
+        <div align="center">
+            <button type="button" class="btn btn-primary">Salvar</button>
+        </div>
+    </div> <!--FIM DO CONTEINER-->
+	</form>
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+
+</html>
