@@ -1,0 +1,11 @@
+create database escola;
+use escola;
+
+create table  aluno
+(
+        id BIGINT not null primary key,
+        Nome VARCHAR(40) not null,
+        CPF numeric(11) UNIQUE,
+	senha VARCHAR (50)
+);
+
